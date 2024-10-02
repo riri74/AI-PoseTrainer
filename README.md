@@ -14,9 +14,19 @@ The system captures and tracks a dumbbell curl session from a video feed, with a
 - Percentage completion for curls (shown as a vertical bar).
 - Total curl count.
 - FPS display for performance tracking.
+  ![image](https://github.com/user-attachments/assets/3d27ce9c-31c4-42cd-a207-a97a040e742f)
+
 
 ## Prerequisites
 Ensure you have the following installed:
 - Python 3.x
 - OpenCV (cv2)
 - Numpy (numpy)
+
+## Key Functionality
+- Angle Calculation: Tracks the right arm's elbow angle using keypoints 12 (shoulder), 14 (elbow), and 16 (wrist). The percentage of the curl completion is based on the angle.
+- Repetition Count: Each full curl (up and down) increments the count by 1.
+- Visual Elements:
+-- A vertical progress bar displays the current percentage of the curl.
+-- The current count of curls is displayed at the bottom left corner.
+-- FPS is shown in the top left corner to monitor real-time performance.

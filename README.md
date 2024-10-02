@@ -14,6 +14,7 @@ The system captures and tracks a dumbbell curl session from a video feed, with a
 - Percentage completion for curls (shown as a vertical bar).
 - Total curl count.
 - FPS display for performance tracking.
+  
   ![image](https://github.com/user-attachments/assets/3d27ce9c-31c4-42cd-a207-a97a040e742f)
 
 

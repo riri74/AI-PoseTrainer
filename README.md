@@ -27,6 +27,6 @@ Ensure you have the following installed:
 - Angle Calculation: Tracks the right arm's elbow angle using keypoints 12 (shoulder), 14 (elbow), and 16 (wrist). The percentage of the curl completion is based on the angle.
 - Repetition Count: Each full curl (up and down) increments the count by 1.
 - Visual Elements:
- - A vertical progress bar displays the current percentage of the curl.
- - The current count of curls is displayed at the bottom left corner.
- - FPS is shown in the top left corner to monitor real-time performance.
+      - A vertical progress bar displays the current percentage of the curl.
+      - The current count of curls is displayed at the bottom left corner.
+      - FPS is shown in the top left corner to monitor real-time performance.
